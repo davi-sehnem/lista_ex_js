@@ -22,7 +22,7 @@
 // somar(4,5);
 // saudacao();
 
-function somarNumeros(){
+/* function somarNumeros(){
     let soma = 0;
     let continuar = true;
 
@@ -41,4 +41,4 @@ function somarNumeros(){
     alert("A soma dos números é: " + soma);
 }
 
-somarNumeros();
+somarNumeros(); */
