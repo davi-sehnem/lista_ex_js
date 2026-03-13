@@ -1,4 +1,4 @@
-function somarNumeros(){
+function Exercicio_1(){
     let soma=0;
     let continuar = true;
 
