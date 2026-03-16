@@ -141,3 +141,26 @@ if(sabor === 'I'){
 } 
 
 }
+
+function Exercicio_8() {
+
+let n1;
+let n2;
+let diferenca;
+let dobro;
+let multiplicacao;
+
+n1= parseFloat(prompt("Inira o 1° valor: "))
+n2= parseFloat(prompt("Inira o 2° valor: "))
+
+diferenca = (n1 - n2);
+
+dobro = (n1 * 2) + (n2 * 3);
+
+multiplicacao = (n1 * n2);
+
+alert("A diferença entre eles é: " + diferenca);
+alert("O dobro da primeira variável somado ao triplo da segunda: " + dobro);
+alert("A multiplicação das variaveis: " + multiplicacao);
+
+}
