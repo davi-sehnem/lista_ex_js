@@ -48,22 +48,22 @@ alert("O gasto bruto anual foi de: R%" + gasto);
 
 function Exercicio_4() {
 
-let vetor = [4];
+let n = [4];
 let aux;
 
     for (let i = 0; i <4; i++){
 
-        vetor[i] = parseInt(prompt("Insira o valor: " + i));
+        n[i] = parseInt(prompt("Insira o valor: " + i));
     }
 
     for (i=0; i<4; i++){
 
         for (let j=1; j<4;j++){
 
-           if(vetor[j] < vetor[j+1]){
-            aux = vetor[j];
-            vetor[j] = vetor[j+1];
-            vetor[j+1] = aux;
+           if(n[j] < n[j+1]){
+            aux = n[j];
+            n[j] = n[j+1];
+            n[j+1] = aux;
            } 
 
         }
@@ -71,3 +71,18 @@ let aux;
     }
     alert("Ordenados em forma decrescente: " + vetor[1] + "; " + vetor[2] + "; " + vetor[3] + "; " + vetor[4]);
 }
+
+function Exercicio_5() {
+
+let n;
+
+n = parseFloat("Insira um número inteiro:")
+
+if(n %2 == 0){
+    alert("O número é par.")
+} else {
+    alert("O núemero é impar.")
+}
+}
+
+function
