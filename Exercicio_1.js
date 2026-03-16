@@ -76,7 +76,7 @@ function Exercicio_5() {
 
 let n;
 
-n = parseFloat("Insira um número inteiro:")
+n = prompt("Insira um número inteiro:")
 
 if(n %2 == 0){
     alert("O número é par.")
@@ -85,4 +85,16 @@ if(n %2 == 0){
 }
 }
 
-function
+function Exercicio_6(){
+
+let letra;
+
+letra = prompt("Informe uma letra");
+
+if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+    alert("A letra é uma Vogal.");
+} else {
+    alert("A letra é uma consoante.");
+}
+
+}
